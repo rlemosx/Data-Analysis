@@ -20,7 +20,7 @@ def conecta_bd(sistema):
      #Connect ORACLE SERVER
      
     elif sistema =='Y':
-        conexao = 'user/senha@host:1521/bdprodexa'
+        conexao = 'user/senha@host:1521/database'
         
     elif sistema == 'Z':
     # Connect to servicenow API
@@ -30,7 +30,7 @@ def conecta_bd(sistema):
         
     elif sistema == 'W':
     #Connect Microsoft SQL Server
-        conexao = ('DRIVER='+'{SQL Server}'+';PORT=1433;SERVER='+'xxxx-prd.xxxxxx.database.windows.net'+';PORT=1443;DATABASE='+'Instancia'+';UID='+'user'+';PWD='+'senha')
+        conexao = ('DRIVER='+'{SQL Server}'+';PORT=1433;SERVER='+'xxxx.xxxxxx.database.windows.net'+';PORT=1443;DATABASE='+'Instancia'+';UID='+'user'+';PWD='+'senha')
             
 
     else:
