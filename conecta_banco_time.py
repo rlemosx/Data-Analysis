@@ -30,7 +30,7 @@ def conecta_bd(sistema):
         
     elif sistema == 'W':
     #Connect Microsoft SQL Server
-        conexao = ('DRIVER='+'{SQL Server}'+';PORT=1433;SERVER='+'krt-ksk-sqlmi-br-prd.8074949fa3bc.database.windows.net'+';PORT=1443;DATABASE='+'COLACAODIGITAL-PRD'+';UID='+'webcolacaodigitalapi'+';PWD='+'#CkrY29#TghJ@')
+        conexao = ('DRIVER='+'{SQL Server}'+';PORT=1433;SERVER='+'xxxx-prd.xxxxxx.database.windows.net'+';PORT=1443;DATABASE='+'Instancia'+';UID='+'user'+';PWD='+'senha')
             
 
     else:
